@@ -24,10 +24,10 @@ as returned by `evaluateBoardMax`
 minMax :: Tile -> Board -> IO Move
 minMax tile board 
   = return $ snd $ maximum scoredMoves 
-  where
-  	scoredMoves = zip scores moves
-  	scores      = map (evaluateBoardMax tile . put board tile) moves 
-  	moves       = validMoves board
+   where
+    scoredMoves = zip scores moves
+    scores      = map (evaluateBoardMax tile . put board tile) moves 
+    moves       = validMoves board
 \end{code}
 
 1. Define the function `evaluateBoardMax tile board` to return 

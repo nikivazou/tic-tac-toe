@@ -6,9 +6,10 @@ import Misc
 
 import Player.Human    (playerHuman   )
 import Player.Computer (playerComputer)
+import Player.MinMax   (playerMinMax  )
 
 player1, player2 :: Player
-player1 = playerHuman "me"    
+player1 = playerHuman "me"     
 player2 = playerComputer
 
 main :: IO ()

@@ -54,6 +54,6 @@ That's it! Your player can never lose!
 
 3. Test your implementation
 
-Replace [`player2` in `TicTacToe.hs`](https://github.com/nikivazou/tic-tac-toe/blob/master/src/TicTacToe.hs#L12) with `playerMinMax` to check if you can beat min-max.
+Replace [`player2` in `TicTacToe.hs`](https://github.com/nikivazou/tic-tac-toe/blob/master/classic/src/TicTacToe.hs#L12) with `playerMinMax` to check if you can beat min-max.
 
-Replace [`player1` in `TicTacToe.hs`](https://github.com/nikivazou/tic-tac-toe/blob/master/src/TicTacToe.hs#L12) with `playerMinMax` to check if the computer can beat min-max.
+Replace [`player1` in `TicTacToe.hs`](https://github.com/nikivazou/tic-tac-toe/blob/master/classic/src/TicTacToe.hs#L12) with `playerMinMax` to check if the computer can beat min-max.
